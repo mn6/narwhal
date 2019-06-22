@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Narwhal",
+  "version": "0.0.1",
+
+  "background": {
+    "scripts": ["src/base/cookies.js"],
+    "persistent": true
+  },
+
+  "content_scripts": [
+    {
+      "js": ["src/modifications/wapo.js"],
+      "matches": ["*://*.washingtonpost.com/*"]
+    },
+    {
+      "js": ["src/modifications/damndelicious.js"],
+      "matches": ["*://*.damndelicious.net/*"]
+    },
+    {
+      "js": ["src/modifications/cadryskitchen.js"],
+      "matches": ["*://*.cadryskitchen.com/*"]
+    }
+  ],
+
+  "description": "Narwhal is an extension for making the web a little more bearable. Removes paywalls and adds skips for recipe blogs.",
+  "icons": {
+    "16": "resources/icon16.png",
+    "48": "resources/icon48.png",
+   "128": "resources/icon128.png"
+  },
+
+  "homepage_url": "https://github.com/mn6/narwhal",
+  "permissions": [
+    "*://*/*",
+    "activeTab",
+    "cookies"
+  ]
+}
