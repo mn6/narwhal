@@ -10,20 +10,16 @@
 
   "content_scripts": [
     {
-      "js": ["src/modifications/wapo.js"],
-      "matches": ["*://*.washingtonpost.com/*"]
-    },
-    {
-      "js": ["src/modifications/damndelicious.js"],
-      "matches": ["*://*.damndelicious.net/*"]
-    },
-    {
-      "js": ["src/modifications/cadryskitchen.js"],
-      "matches": ["*://*.cadryskitchen.com/*"]
+      "js": ["src/modifications/recipe.js"],
+      "matches": ["*://*/*"]
     },
     {
       "js": ["src/modifications/nytimes.js"],
       "matches": ["*://*.nytimes.com/*"]
+    },
+    {
+      "js": ["src/modifications/wapo.js"],
+      "matches": ["*://*.washingtonpost.com/*"]
     }
   ],
 
