@@ -20,6 +20,9 @@ z.innerHTML = `
     top: -2px;
     left: 5px;
     z-index: 10000000000000000;
+    width: max-content !important;
+    text-transform: none !important;
+    height: max-content !important;
   }
   .${className} img {
     height: 15px !important;
