@@ -1,5 +1,5 @@
 // Create style tag with modifications
-var z = document.createElement('style')
+const z = document.createElement('style')
 
 z.innerHTML = `
   #wp_Signin, .content_gate {

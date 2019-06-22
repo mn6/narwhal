@@ -20,6 +20,10 @@
     {
       "js": ["src/modifications/cadryskitchen.js"],
       "matches": ["*://*.cadryskitchen.com/*"]
+    },
+    {
+      "js": ["src/modifications/nytimes.js"],
+      "matches": ["*://*.nytimes.com/*"]
     }
   ],
 
