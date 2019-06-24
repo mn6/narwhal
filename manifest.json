@@ -24,6 +24,10 @@
     {
       "js": ["src/modifications/theeconomist.js"],
       "matches": ["*://*.economist.com/*"]
+    },
+    {
+      "js": ["src/modifications/wallstreetjournal.js"],
+      "matches": ["*://*.wsj.com/*"]
     }
   ],
 
