@@ -20,6 +20,10 @@
     {
       "js": ["src/modifications/wapo.js"],
       "matches": ["*://*.washingtonpost.com/*"]
+    },
+    {
+      "js": ["src/modifications/theeconomist.js"],
+      "matches": ["*://*.economist.com/*"]
     }
   ],
 
