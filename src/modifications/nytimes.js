@@ -1,7 +1,7 @@
 // Create style tag with modifications
-const z = document.createElement('style')
+const narwhalStyle = document.createElement('style')
 
-z.innerHTML = `
+narwhalStyle.innerHTML = `
   .hidden, #gateway-content {
     display: none !important;
   }
@@ -9,7 +9,7 @@ z.innerHTML = `
     overflow: auto !important;
   }
 `
-document.head.appendChild(z)
+document.head.appendChild(narwhalStyle)
 
 const checkPaywall = () => {
   const sel = document.querySelectorAll('div[class^="css"]')
