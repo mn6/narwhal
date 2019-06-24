@@ -21,6 +21,10 @@ Narwhal is a Chrome extension for skipping recipe blog stories and bypassing web
     <td>Added "Skip to Recipe" button</td>
   </tr>
   <tr>
+    <td>Wallstreet Journal</td>
+    <td>Removed paywall</td>
+  </tr>
+  <tr>
     <td>Washington Post</td>
     <td>Removed paywall</td>
   </tr>
