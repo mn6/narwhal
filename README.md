@@ -1,11 +1,9 @@
 # 🛑🐋 Narwhal
 Narwhal is a Chrome/Firefox extension for skipping recipe blog stories and bypassing website paywalls. It adds a "skip to recipe" button on most recipe blogs that use common recipe modules and removes paywalls on news websites automatically.
 
-## Installation
+**[Chrome Store Link](https://chrome.google.com/webstore/detail/narwhal/anpnihlhmokhgcdoobohmdbfmibbfgpb) | [Firefox Store Link](https://addons.mozilla.org/en-US/firefox/addon/narwhal-ff/)**
 
-### Firefox
-
-1. [Click here to grab the latest version on the add-on store.](https://addons.mozilla.org/en-US/firefox/addon/narwhal-ff/)
+## Repository Installation
 
 ### Chrome
 1. Click the "Clone or Download" dropdown above and then "Download ZIP".
