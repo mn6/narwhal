@@ -1,37 +1,22 @@
 {
   "manifest_version": 2,
   "name": "Narwhal",
-  "version": "0.0.1",
+  "version": "0.1.0",
 
   "background": {
-    "scripts": ["src/base/cookies.js"],
+    "scripts": ["src/base/bg.js"],
     "persistent": true
   },
+  "browser_action": {},
 
   "content_scripts": [
     {
       "js": ["src/modifications/recipe.js"],
       "matches": ["*://*/*"]
-    },
-    {
-      "js": ["src/modifications/nytimes.js"],
-      "matches": ["*://*.nytimes.com/*"]
-    },
-    {
-      "js": ["src/modifications/wapo.js"],
-      "matches": ["*://*.washingtonpost.com/*"]
-    },
-    {
-      "js": ["src/modifications/theeconomist.js"],
-      "matches": ["*://*.economist.com/*"]
-    },
-    {
-      "js": ["src/modifications/wallstreetjournal.js"],
-      "matches": ["*://*.wsj.com/*"]
     }
   ],
 
-  "description": "Narwhal is an extension for making the web a little more bearable. Removes paywalls and adds skips for recipe blogs.",
+  "description": "Narwhal is an extension for skipping lengthy recipe blog introductions.",
   "icons": {
     "16": "resources/icon16.png",
     "48": "resources/icon48.png",
@@ -41,7 +26,6 @@
   "homepage_url": "https://github.com/mn6/narwhal",
   "permissions": [
     "*://*/*",
-    "activeTab",
-    "cookies"
+    "activeTab"
   ]
 }

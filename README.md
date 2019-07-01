@@ -1,5 +1,6 @@
+![Narwhal usage gif](/resources/readme.gif)
 # 🛑🐋 Narwhal
-Narwhal is a Chrome/Firefox extension for skipping recipe blog stories and bypassing website paywalls. It adds a "skip to recipe" button on most recipe blogs that use common recipe modules and removes paywalls on news websites automatically.
+Narwhal is a simple Chrome/Firefox extension for skipping recipe blog stories. It adds a "skip to recipe" button on recipe blogs that use common recipe modules.
 
 **[Chrome Store Link](https://chrome.google.com/webstore/detail/narwhal/anpnihlhmokhgcdoobohmdbfmibbfgpb) | [Firefox Store Link](https://addons.mozilla.org/en-US/firefox/addon/narwhal-ff/)**
 
@@ -12,39 +13,6 @@ Narwhal is a Chrome/Firefox extension for skipping recipe blog stories and bypas
 4. Check "Developer Mode" at the top right of the page.
 5. Click "Load Unpacked" on the top left and open the `narwhal-master` folder.
 
-## Modifications
-
-<table>
-  <tr>
-    <th><b>Website</b></th>
-    <th><b>Modification</b></th>
-  </tr>
-  <tr>
-    <td>Common Food Blogs (create an issue to suggest)</td>
-    <td>Added "Skip to Recipe" button</td>
-  </tr>
-  <tr>
-    <td>Wallstreet Journal</td>
-    <td>Removed paywall</td>
-  </tr>
-  <tr>
-    <td>Washington Post</td>
-    <td>Removed paywall</td>
-  </tr>
-  <tr>
-    <td>NYTimes</td>
-    <td>Removed paywall</td>
-  </tr>
-  <tr>
-    <td>The Economist</td>
-    <td>Removed paywall</td>
-  </tr>
-</table>
-
-## Have a suggestion for a recipe or news website that needs modifications?
+## Have a suggestion for a recipe website I've missed?
 
 [Create an issue!](https://github.com/mn6/narwhal/issues/new)
-
-## Donations
-
-I don't accept donations, but a star here on GitHub or an honest rating on the extension stores helps me greatly!
