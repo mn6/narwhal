@@ -1,4 +1,6 @@
-![Narwhal usage gif](/resources/readme.gif)
+<p align="center">
+  <img src="/resources/readme.gif" alt="Narwhal Usage Video">
+</p>
 # 🛑🐋 Narwhal
 Narwhal is a simple Chrome/Firefox extension for skipping recipe blog stories. It adds a "skip to recipe" button on recipe blogs that use common recipe modules.
 
